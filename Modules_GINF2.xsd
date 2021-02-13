@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="Modules" >
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Module"  minOccurs="1" maxOccurs="unbounded">
+            <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="ModuleName" type="xsd:string"/>
+        <xsd:element name="ModuleSym" type="xsd:string"/>
+        <xsd:element name="ElementModule1" type="xsd:string"/>
+        <xsd:element name="ElementModule1Sym" type="xsd:string"/>
+        <xsd:element name="ElementModule2" type="xsd:string"/>
+        <xsd:element name="ElementModule2Sym" type="xsd:string"/>
+        <xsd:element name="DeprAttachement">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string" >
+                    <xsd:enumeration value="MI"/>
+                    <xsd:enumeration value="SIC"/>
+                    <xsd:enumeration value="GEI"/>
+                 </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+          </xsd:sequence>
+          </xsd:complexType>
+          </xsd:element>
+          </xsd:sequence>
+          </xsd:complexType>
+          </xsd:element>
+</xsd:schema>

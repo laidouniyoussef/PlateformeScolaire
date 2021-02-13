@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Notes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        table,th,td {
+          border : 1px solid black;
+          border-collapse: collapse;
+        }
+        th,td {
+          padding: 5px;
+        }
+        </style>
+</head>
+<body>
+    <h2>Note GINF2</h2>
+   
+<button type="button" onclick="loadXMLDoc()">Get notes</button>
+<br><br>
+<table id="demo" class="table table-hover table-dark"></table>
+<script>
+    function loadXMLDoc() {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          myFunction(this);
+        }
+      };
+      xmlhttp.open("GET", "Notes_GINF2.xml", true);
+      xmlhttp.send();
+    }
+    function myFunction(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var table="<tr><th>CNE</th><th>DateOfBirth</th><th>FirstName</th><th>LastName</th><th>GINF21A</th><th>GINF21B</th><th>GINF221</th><th>GINF222</th><th>GINF231</th><th>GINF2312</th><th>GINF241</th><th>GINF242</th><th>GINF251</th><th>GINF252</th><th>GINF261</th><th>GINF262</th><th>GINF271</th><th>GINF272</th><th>GINF281</th><th>GINF282</th><th>GINF291</th><th>GINF292</th><th>GINF2101</th><th>GINF2102</th><th>GINF2111</th><th>GINF2112</th><th>GINF2121</th><th>GINF2122</th></tr>";
+      var x = xmlDoc.getElementsByTagName("Note");
+      for (i = 0; i <x.length; i++) { 
+        table += "<tr><td>" +
+        x[i].getElementsByTagName("CNE")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("DateOfBirth")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("FirstName")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("LastName")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF21A")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF21B")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF221")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF222")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF231")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF2312")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF241")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF242")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF251")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF252")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF261")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF262")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF271")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF272")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF281")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF282")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF291")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF292")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF2101")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF2102")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF2111")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF2112")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF2121")[0].childNodes[0].nodeValue +
+        "</td><td>"+
+        x[i].getElementsByTagName("GINF2122")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+      }
+      document.getElementById("demo").innerHTML = table;
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="Students" >
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Student"  minOccurs="1" maxOccurs="unbounded">
+            <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="CNE" type="xsd:string"/>
+        <xsd:element name="DateofBirth" type="xsd:string"/>
+        <xsd:element name="FirstName">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:pattern value="([A-Za-zéÉïèàîçëÎÍÏŠŽžÁÀÂÃÄÉÊËÌÔôÓÒÙÙÛÜâãá-])+"/>
+                 </xsd:restriction>
+               </xsd:simpleType>
+</xsd:element>
+        <xsd:element name="LastName">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:pattern value="([A-Za-zéÉïèàîçëÎÍÏŠŽžÁÀÂÃÄÉÊËÌÔôÓÒÙÙÛÜâãá-])+"/>
+                 </xsd:restriction>
+               </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ClassseName" type="xsd:string"/>
+        <xsd:element name="Phone" type="xsd:string"/>
+        <xsd:element name="Email">
+        <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:pattern value="[^@]+@[^\.]+\..+"/>
+                 </xsd:restriction>
+               </xsd:simpleType>
+        </xsd:element>
+          </xsd:sequence>
+          </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+          </xsd:complexType>
+</xsd:element>
+</xsd:schema>
