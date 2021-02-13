@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Profs_GINF2.xsd">
+    <Prof>
+        <FirstName>Ghyslaine</FirstName>
+        <SecondName>Parmentier</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 616-046242</Phone>
+        <Email>Ghyslaine.Parmentier@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Régine</FirstName>
+        <SecondName>Genest</SecondName>
+        <DeptAttachement>MI</DeptAttachement>
+        <Phone>+212 689-958400</Phone>
+        <Email>Régine.Genest@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Flora</FirstName>
+        <SecondName>Fournier</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 705-540386</Phone>
+        <Email>Flora.Fournier@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Éloïse</FirstName>
+        <SecondName>Hébras</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 707-769916</Phone>
+        <Email>Éloïse.Hébras@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Sabine</FirstName>
+        <SecondName>Auclair</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 787-778917</Phone>
+        <Email>Sabine.Auclair@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Yvonne</FirstName>
+        <SecondName>Hachette</SecondName>
+        <DeptAttachement>MI</DeptAttachement>
+        <Phone>+212 107-989918</Phone>
+        <Email>Yvonne.Hachette@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Émile</FirstName>
+        <SecondName>Poulin</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 967-989919</Phone>
+        <Email>Émile.Poulin@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Gaëtan</FirstName>
+        <SecondName>Manaudou</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 347-769920</Phone>
+        <Email>Gaëtan.Manaudou@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Alexis</FirstName>
+        <SecondName>Vigouroux</SecondName>
+        <DeptAttachement>MI</DeptAttachement>
+        <Phone>+212 347-158921</Phone>
+        <Email>Alexis.Vigouroux@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Jonathan</FirstName>
+        <SecondName>Ballouhey</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 254-836542</Phone>
+        <Email>Jonathan.Ballouhey@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Maurice</FirstName>
+        <SecondName>Jacquier</SecondName>
+        <DeptAttachement>MI</DeptAttachement>
+        <Phone>+212 479-769923</Phone>
+        <Email>Maurice.Jacquier@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Adolphe</FirstName>
+        <SecondName>Pascal</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 384-769924</Phone>
+        <Email>Adolphe.Pascal@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Henri</FirstName>
+        <SecondName>Lefrançois</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 987-769925</Phone>
+        <Email>Henri.Lefrançois@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Martin</FirstName>
+        <SecondName>Trottier</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 384-754875</Phone>
+        <Email>Martin.Trottier@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Jean-Jacques</FirstName>
+        <SecondName>Couvreur</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 568-326548</Phone>
+        <Email>Jean-Jacques.Couvreur@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Grégoire</FirstName>
+        <SecondName>Jeannin</SecondName>
+        <DeptAttachement>MI</DeptAttachement>
+        <Phone>+212 589-784324</Phone>
+        <Email>Grégoire.Jeannin@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Joël</FirstName>
+        <SecondName>Daucourt</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 384-458424</Phone>
+        <Email>Joël.Daucourt@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Désiré</FirstName>
+        <SecondName>Choffard</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 655-588871</Phone>
+        <Email>Désiré.Choffard@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Liliane</FirstName>
+        <SecondName>Baume</SecondName>
+        <DeptAttachement>MI</DeptAttachement>
+        <Phone>+212 554-588372</Phone>
+        <Email>Liliane.Baume@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Yolande</FirstName>
+        <SecondName>Berlioz</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 655-548879</Phone>
+        <Email>Yolande.Berlioz@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Henriette</FirstName>
+        <SecondName>Delon</SecondName>
+        <DeptAttachement>MI</DeptAttachement>
+        <Phone>+212 655-588348</Phone>
+        <Email>Henriette.Delon@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Nicoline</FirstName>
+        <SecondName>Bougie</SecondName>
+        <DeptAttachement>SIC</DeptAttachement>
+        <Phone>+212 655-588349</Phone>
+        <Email>Nicoline.Bougie@etu.uae.ac.ma</Email>
+    </Prof>
+    <Prof>
+        <FirstName>Emmeline</FirstName>
+        <SecondName>Duclos</SecondName>
+        <DeptAttachement>MI</DeptAttachement>
+        <Phone>+212 878-555585</Phone>
+        <Email>Emmeline.Duclos@etu.uae.ac.ma</Email>
+    </Prof>
+</Profs>

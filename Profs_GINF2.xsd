@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <xsd:element name="Profs" >
+   <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Prof" minOccurs="1" maxOccurs="unbounded">  
+                    <xsd:complexType>
+                         <xsd:sequence> 
+            
+                                <xsd:element name="FirstName"> 
+                                    <xsd:simpleType>
+                                        <xsd:restriction base="xsd:string" >
+                                            <xsd:pattern value="([A-Za-zéÉïèàîçÎÍëÏŠŽžÁÀÂÃÄÉÊËÌÔôÓÒÙÙÛÜâãá-])+"/>
+                                       </xsd:restriction>
+                                    </xsd:simpleType>
+                                </xsd:element>
+                                
+                                <xsd:element name="SecondName"> 
+                                    <xsd:simpleType>
+                                        <xsd:restriction base="xsd:string" >
+                                            <xsd:pattern value="([A-Za-zéÉïèàîçÎÍÏŠŽžÁÀÂÃÄÉÊËÌÔôÓÒÙÙÛÜâãá-])+"/>
+                                       </xsd:restriction>
+                                    </xsd:simpleType>
+                                </xsd:element>
+                                
+                                <xsd:element name="DeptAttachement"> 
+                                    <xsd:simpleType>
+                                        <xsd:restriction base="xsd:string" >
+                                            <xsd:enumeration value="MI" />
+                                            <xsd:enumeration value="SIC" />
+                                            <xsd:enumeration value="GEI"/>
+                                        </xsd:restriction>
+                                    </xsd:simpleType>
+                                </xsd:element>
+                                
+                                <xsd:element name="Phone" type="xsd:string"/>
+                                
+                                <xsd:element name="Email"> 
+                                    <xsd:simpleType>
+                                        <xsd:restriction base="xsd:string" >
+                                            <xsd:pattern value="(.)+@(.)+"/>
+                                        </xsd:restriction>
+                                    </xsd:simpleType>
+                                </xsd:element>
+            
+
+                        </xsd:sequence>
+                    </xsd:complexType>
+                 </xsd:element>
+            </xsd:sequence>
+      </xsd:complexType>
+ </xsd:element>
+
+
+</xsd:schema>

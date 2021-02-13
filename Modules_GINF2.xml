@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Modules>
+    <Module>
+        <ModuleName>Programmation orientée objet &amp; XML</ModuleName>
+        <ModuleSym>GINF21</ModuleSym>
+        <ElementModule1>Programmation orientée objet:Java</ElementModule1>
+        <ElementModule1Sym>GINF21A</ElementModule1Sym>
+        <ElementModule2>XML &amp; Applications</ElementModule2>
+        <ElementModule2Sym>GINF21B</ElementModule2Sym>
+        <DeprAttachement>SIC</DeprAttachement>
+    </Module>
+    <Module>
+        <ModuleName>Qualité &amp; approche processus</ModuleName>
+        <ModuleSym>GINF22</ModuleSym>
+        <ElementModule1>Assurance contrôle qualité (ISO 9001)</ElementModule1>
+        <ElementModule1Sym>GINF221</ElementModule1Sym>
+        <ElementModule2>Cycle de vie logiciel et méthodes agiles</ElementModule2>
+        <ElementModule2Sym>GINF222</ElementModule2Sym>
+        <DeprAttachement>SIC</DeprAttachement>
+    </Module>
+    <Module>
+        <ModuleName>Modélisation orientée objet &amp; IHM</ModuleName>
+        <ModuleSym>GINF23</ModuleSym>
+        <ElementModule1>Modélisation orientée objet UML</ElementModule1>
+        <ElementModule1Sym>GINF231</ElementModule1Sym>
+        <ElementModule2>Interface Homme Machine</ElementModule2>
+        <ElementModule2Sym>GINF232</ElementModule2Sym>
+        <DeprAttachement>MI</DeprAttachement>
+    </Module>
+    <Module>
+        <ModuleName>Bases de données avancées 1</ModuleName>
+        <ModuleSym>GINF24</ModuleSym>
+        <ElementModule1>Optimisation et quaité de base de données</ElementModule1>
+        <ElementModule1Sym>GINF241</ElementModule1Sym>
+        <ElementModule2>Base de donées NoSQL</ElementModule2>
+        <ElementModule2Sym>GINF242</ElementModule2Sym>
+        <DeprAttachement>SIC</DeprAttachement>
+    </Module>
+    <Module>
+        <ModuleName>Administration et programmation systéme</ModuleName>
+        <ModuleSym>GINF25</ModuleSym>
+        <ElementModule1>Administration systéme</ElementModule1>
+        <ElementModule1Sym>GINF251</ElementModule1Sym>
+        <ElementModule2>Programmation systéme</ElementModule2>
+        <ElementModule2Sym>GINF252</ElementModule2Sym>
+        <DeprAttachement>MI</DeprAttachement>
+    </Module>
+    <Module>
+        <ModuleName>Langues et Communication 2 </ModuleName>
+        <ModuleSym>GINF26</ModuleSym>
+        <ElementModule1>Espagnol 2, allemand</ElementModule1>
+        <ElementModule1Sym>GINF261</ElementModule1Sym>
+        <ElementModule2>Techniques de communication</ElementModule2>
+        <ElementModule2Sym>GINF262</ElementModule2Sym>
+        <DeprAttachement>SIC</DeprAttachement>
+    </Module>
+    <Module>
+        <ModuleName>Technologies distribuées</ModuleName>
+        <ModuleSym>GINF27</ModuleSym>
+        <ElementModule1>Introduction a J2EE</ElementModule1>
+        <ElementModule1Sym>GINF271</ElementModule1Sym>
+        <ElementModule2>Programmation en C#</ElementModule2>
+        <ElementModule2Sym>GINF272</ElementModule2Sym>
+        <DeprAttachement>SIC</DeprAttachement>
+    </Module>
+    <Module>
+        <ModuleName>Bases de données avancées 2 &amp; cloud</ModuleName>
+        <ModuleSym>GINF28</ModuleSym>
+        <ElementModule1>Gestion des données complexes</ElementModule1>
+        <ElementModule1Sym>GINF281</ElementModule1Sym>
+        <ElementModule2>Cloud computing &amp; infogérance</ElementModule2>
+        <ElementModule2Sym>GINF282</ElementModule2Sym>
+        <DeprAttachement>SIC</DeprAttachement>
+    </Module>
+    <Module>
+        <ModuleName>Traitement de l'image</ModuleName>
+        <ModuleSym>GINF29</ModuleSym>
+        <ElementModule1>Traitement d'image</ElementModule1>
+        <ElementModule1Sym>GINF291</ElementModule1Sym>
+        <ElementModule2>Processus stochastique</ElementModule2>
+        <ElementModule2Sym>GINF292</ElementModule2Sym>
+        <DeprAttachement>SIC</DeprAttachement>
+    </Module>
+    <Module>
+        <ModuleName>Programmation déclarative et TAV</ModuleName>
+        <ModuleSym>GINF210</ModuleSym>
+        <ElementModule1>Programmation déclarative</ElementModule1>
+        <ElementModule1Sym>GINF2101</ElementModule1Sym>
+        <ElementModule2>Technique Algorethmique avancée</ElementModule2>
+        <ElementModule2Sym>GINF2102</ElementModule2Sym>
+        <DeprAttachement>MI</DeprAttachement>
+    </Module>
+    <Module>
+        <ModuleName>Sécurite et cryptographie</ModuleName>
+        <ModuleSym>GINF211</ModuleSym>
+        <ElementModule1>Sécurite des systémes</ElementModule1>
+        <ElementModule1Sym>GINF2111</ElementModule1Sym>
+        <ElementModule2>cryptographie</ElementModule2>
+        <ElementModule2Sym>GINF2112</ElementModule2Sym>
+        <DeprAttachement>MI</DeprAttachement>
+    </Module>
+</Modules>

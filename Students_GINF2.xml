@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students>
+    <Student>
+        <CNE>15091</CNE>
+        <DateofBirth>5/1/1998</DateofBirth>
+        <FirstName>Thaddée </FirstName>
+        <LastName>Bourseiller</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 503 999</Phone>
+        <Email>Thaddée.Bourseiller@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15092</CNE>
+        <DateofBirth>18/01/1998</DateofBirth>
+        <FirstName>Francis</FirstName>
+        <LastName>Carbonneau</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 563 507</Phone>
+        <Email>Francis.Carbonneau@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15093</CNE>
+        <DateofBirth>5/4/1998</DateofBirth>
+        <FirstName>Amadou</FirstName>
+        <LastName>Tourneur</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 540 339</Phone>
+        <Email>Amadou.Tourneur@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15094</CNE>
+        <DateofBirth>21/04/1998</DateofBirth>
+        <FirstName>Aurélien</FirstName>
+        <LastName>Pinchon</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 511 890</Phone>
+        <Email>Aurélien.Pinchon@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15095</CNE>
+        <DateofBirth>3/6/1998</DateofBirth>
+        <FirstName>Évrard</FirstName>
+        <LastName>Courbet</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 585 047</Phone>
+        <Email>Évrard.Courbet@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15096</CNE>
+        <DateofBirth>15/07/1998</DateofBirth>
+        <FirstName>Manon</FirstName>
+        <LastName>Courbis</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 586 766</Phone>
+        <Email>Manon.Courbis@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15097</CNE>
+        <DateofBirth>14/08/1998</DateofBirth>
+        <FirstName>Iris</FirstName>
+        <LastName>Bassot</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 504 613</Phone>
+        <Email>Iris.Bassot@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15098</CNE>
+        <DateofBirth>28/08/1998</DateofBirth>
+        <FirstName>Germaine</FirstName>
+        <LastName>Barthet</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 540 724</Phone>
+        <Email>Germaine.Barthet@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15099</CNE>
+        <DateofBirth>28/09/1998</DateofBirth>
+        <FirstName>Manon</FirstName>
+        <LastName>Clérisseau</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 527 969</Phone>
+        <Email>Manon.Clérisseau@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15100</CNE>
+        <DateofBirth>13/10/1998</DateofBirth>
+        <FirstName>Bernadette</FirstName>
+        <LastName>Dieudonné</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 571 047</Phone>
+        <Email>Bernadette.Dieudonné@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15101</CNE>
+        <DateofBirth>25/11/1998</DateofBirth>
+        <FirstName>Mégane</FirstName>
+        <LastName>Dimont</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 562 266</Phone>
+        <Email>Mégane.Dimont@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15102</CNE>
+        <DateofBirth>16/12/1998</DateofBirth>
+        <FirstName>Laura</FirstName>
+        <LastName>Chéron</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 594 847</Phone>
+        <Email>Laura.Chéron@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15103</CNE>
+        <DateofBirth>22/12/1998</DateofBirth>
+        <FirstName>Michèle</FirstName>
+        <LastName>Auberjonois</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 593 858</Phone>
+        <Email>Michèle.Auberjonois@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15104</CNE>
+        <DateofBirth>23/12/1998</DateofBirth>
+        <FirstName>Muriel</FirstName>
+        <LastName>Alméras</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 561 299</Phone>
+        <Email>Muriel.Alméras@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15105</CNE>
+        <DateofBirth>17/04/1999</DateofBirth>
+        <FirstName>Sigolène</FirstName>
+        <LastName>Dubois</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 513 755</Phone>
+        <Email>Sigolène.Dubois@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15106</CNE>
+        <DateofBirth>7/6/1999</DateofBirth>
+        <FirstName>Matthias</FirstName>
+        <LastName>Léger</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 509 615</Phone>
+        <Email>Matthias.Léger@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15107</CNE>
+        <DateofBirth>15/06/1999</DateofBirth>
+        <FirstName>Ludovic</FirstName>
+        <LastName>Loup</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 512 116</Phone>
+        <Email>Ludovic.Loup@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15108</CNE>
+        <DateofBirth>30/06/1999</DateofBirth>
+        <FirstName>Florent</FirstName>
+        <LastName>Berthelot</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 573 137</Phone>
+        <Email>Florent.Berthelot@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15109</CNE>
+        <DateofBirth>10/9/1999</DateofBirth>
+        <FirstName>Pierre-Louis</FirstName>
+        <LastName>Descombes</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 509 095</Phone>
+        <Email>PierreLouis.Descombes@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15110</CNE>
+        <DateofBirth>29/09/1999</DateofBirth>
+        <FirstName>Henry</FirstName>
+        <LastName>Duval</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 596 365</Phone>
+        <Email>Henry.Duval@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15111</CNE>
+        <DateofBirth>6/11/1999</DateofBirth>
+        <FirstName>Albane</FirstName>
+        <LastName>Maurice</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 527 387</Phone>
+        <Email>Albane.Maurice@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15112</CNE>
+        <DateofBirth>10/11/1999</DateofBirth>
+        <FirstName>Héloïse</FirstName>
+        <LastName>Vandame</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 508 391</Phone>
+        <Email>Héloïse.Vandame@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15113</CNE>
+        <DateofBirth>5/12/1999</DateofBirth>
+        <FirstName>Camille</FirstName>
+        <LastName>Béliveau</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 584 708</Phone>
+        <Email>Camille.Béliveau@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15114</CNE>
+        <DateofBirth>18/12/1999</DateofBirth>
+        <FirstName>Maud</FirstName>
+        <LastName>Brunet</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 565 019</Phone>
+        <Email>Maud.Brunet@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15115</CNE>
+        <DateofBirth>25/12/1999</DateofBirth>
+        <FirstName>Ange</FirstName>
+        <LastName>Adnet</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 582 156</Phone>
+        <Email>Ange.Adnet@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15116</CNE>
+        <DateofBirth>17/01/1999</DateofBirth>
+        <FirstName>Stéphane</FirstName>
+        <LastName>Barthet</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 537 946</Phone>
+        <Email>Stéphane.Barthet@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15117</CNE>
+        <DateofBirth>26/01/1999</DateofBirth>
+        <FirstName>Chloé</FirstName>
+        <LastName>Belyea</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 571 162</Phone>
+        <Email>Chloé.Belyea@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15118</CNE>
+        <DateofBirth>2/2/1999</DateofBirth>
+        <FirstName>Muriel</FirstName>
+        <LastName>Hauet</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 544 618</Phone>
+        <Email>Muriel.Hauet@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15119</CNE>
+        <DateofBirth>14/03/1999</DateofBirth>
+        <FirstName>Germaine</FirstName>
+        <LastName>Michaux</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 583 001</Phone>
+        <Email>Germaine.Michaux@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15120</CNE>
+        <DateofBirth>20/03/1999</DateofBirth>
+        <FirstName>Corinne</FirstName>
+        <LastName>Desmarais</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 535 015</Phone>
+        <Email>Corinne.Desmarais@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15121</CNE>
+        <DateofBirth>30/03/1999</DateofBirth>
+        <FirstName>Justin</FirstName>
+        <LastName>Gachet</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 572 265</Phone>
+        <Email>Justin.Gachet@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15122</CNE>
+        <DateofBirth>5/5/1999</DateofBirth>
+        <FirstName>Benoît</FirstName>
+        <LastName>Bullion</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 532 923</Phone>
+        <Email>Benoît.Bullion@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15123</CNE>
+        <DateofBirth>15/05/1999</DateofBirth>
+        <FirstName>Simon</FirstName>
+        <LastName>Bruneau</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 527 990</Phone>
+        <Email>Simon.Bruneau@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15124</CNE>
+        <DateofBirth>27/05/1999</DateofBirth>
+        <FirstName>Claude</FirstName>
+        <LastName>Beaubois</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 518 328</Phone>
+        <Email>Claude.Beaubois@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15125</CNE>
+        <DateofBirth>13/06/1999</DateofBirth>
+        <FirstName>Gaylord</FirstName>
+        <LastName>Gilson</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 541 558</Phone>
+        <Email>Gaylord.Gilson@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15126</CNE>
+        <DateofBirth>17/06/1999</DateofBirth>
+        <FirstName>Émilien</FirstName>
+        <LastName>Delcroix</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 532 919</Phone>
+        <Email>Émilien.Delcroix@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15127</CNE>
+        <DateofBirth>7/7/1999</DateofBirth>
+        <FirstName>Quentin</FirstName>
+        <LastName>Lièvremont</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 502 524</Phone>
+        <Email>Quentin.Lièvremont@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15128</CNE>
+        <DateofBirth>5/8/1999</DateofBirth>
+        <FirstName>Henry</FirstName>
+        <LastName>Boulet</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 539 236</Phone>
+        <Email>Henry.Boulet@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15129</CNE>
+        <DateofBirth>14/08/1999</DateofBirth>
+        <FirstName>Thibault</FirstName>
+        <LastName>Lafaille</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 572 194</Phone>
+        <Email>Thibault.Lafaille@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15130</CNE>
+        <DateofBirth>15/08/1999</DateofBirth>
+        <FirstName>Roméo</FirstName>
+        <LastName>Devillers</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 524 600</Phone>
+        <Email>Roméo.Devillers@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15131</CNE>
+        <DateofBirth>21/08/1999</DateofBirth>
+        <FirstName>Thomas</FirstName>
+        <LastName>Allais</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 577 441</Phone>
+        <Email>Thomas.Allais@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15132</CNE>
+        <DateofBirth>2/10/1999</DateofBirth>
+        <FirstName>Éloi</FirstName>
+        <LastName>Desjardins</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 596 515</Phone>
+        <Email>Éloi.Desjardins@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15133</CNE>
+        <DateofBirth>3/11/1999</DateofBirth>
+        <FirstName>Fabrice</FirstName>
+        <LastName>Bruguière</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 571 426</Phone>
+        <Email>Fabrice.Bruguière@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15134</CNE>
+        <DateofBirth>5/11/1999</DateofBirth>
+        <FirstName>Xavier</FirstName>
+        <LastName>Rochefort</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 541 478</Phone>
+        <Email>Xavier.Rochefort@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15135</CNE>
+        <DateofBirth>26/11/1999</DateofBirth>
+        <FirstName>Marinette</FirstName>
+        <LastName>Durand</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 549 216</Phone>
+        <Email>Marinette.Durand@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15136</CNE>
+        <DateofBirth>3/12/1999</DateofBirth>
+        <FirstName>Chantal</FirstName>
+        <LastName>Caillat</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 581 531</Phone>
+        <Email>Chantal.Caillat@etu.uae.ac.ma</Email>
+    </Student>
+    <Student>
+        <CNE>15137</CNE>
+        <DateofBirth>15/12/1999</DateofBirth>
+        <FirstName>Éliane</FirstName>
+        <LastName>Vernier</LastName>
+        <ClassseName>GINF2</ClassseName>
+        <Phone>+212 655 513 205</Phone>
+        <Email>Éliane.Vernier@etu.uae.ac.ma</Email>
+    </Student>
+</Students>
