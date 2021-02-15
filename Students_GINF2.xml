@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Students>
+<?xml-stylesheet type="text/xsl" href="Students.xsl"?>
+
+<Students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Students_GINF2.xsd">
     <Student>
         <CNE>15091</CNE>
         <DateofBirth>5/1/1998</DateofBirth>
-        <FirstName>Thaddée </FirstName>
+        <FirstName>Thaddée</FirstName>
         <LastName>Bourseiller</LastName>
         <ClassseName>GINF2</ClassseName>
         <Phone>+212 655 503 999</Phone>

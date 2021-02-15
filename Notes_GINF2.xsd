@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
- <xsd:element name="Notes" >
+ <xsd:element name="Notes">
       <xsd:complexType>
       <xsd:sequence>
         <xsd:element name="Note" minOccurs="1" maxOccurs="unbounded">  
@@ -14,7 +14,7 @@
 
               <xsd:element name="GINF21A"> 
               <xsd:simpleType>
-               <xsd:restriction base="xsd:decimal" >
+               <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
                 </xsd:restriction>
@@ -23,186 +23,186 @@
 
             <xsd:element name="GINF21B">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF221">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF222">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF231">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2312">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF241">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF242">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF251">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF252	">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF261	">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF262	">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF271	">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF272	">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF281	">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF282	">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF291	">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF292	">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2101">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2102">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2111">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2112">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2121">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2122">
               <xsd:simpleType>
-                <xsd:restriction base="xsd:decimal" >
+                <xsd:restriction base="xsd:decimal">
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
 
