@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <?xml-stylesheet type="text/xsl" href="Notes.xsl"?>
+=======
+<?xml-stylesheet type="text/xsl" href="note.xsl"?>
+>>>>>>> 4aae43acec2b1775f4758bfd5841e68aab1ff7ef
 <Notes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Notes_GINF2.xsd">
     <Note>
         <CNE>15091</CNE>

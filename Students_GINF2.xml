@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <?xml-stylesheet type="text/xsl" href="Students.xsl"?>
+=======
+>>>>>>> 4aae43acec2b1775f4758bfd5841e68aab1ff7ef
 
 <Students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Students_GINF2.xsd">
     <Student>
