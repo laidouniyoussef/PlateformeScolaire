@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Students>
+
+<Students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Students_GINF2.xsd">
     <Student>
         <CNE>15091</CNE>
         <DateofBirth>5/1/1998</DateofBirth>

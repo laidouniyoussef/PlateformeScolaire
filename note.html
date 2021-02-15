@@ -5,100 +5,755 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestion de Notes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
+      
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+  background-color: black;
+
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  
+}
+::-webkit-scrollbar-thumb {
+  background: wheat; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+      table{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0%);
+      }
+      table{
+        text-align: center;
+      }
         table,th,td {
           border : 1px solid black;
           border-collapse: collapse;
         }
+        th{
+          height: 100px;
+        }
         th,td {
+          width: 150px;
           padding: 5px;
         }
+        .btn.a{
+          border-bottom-right-radius: 20%;
+          border-top-left-radius: 20%;
+          background-color: #03a9f4;
+          height: 100px;
+          margin-bottom: 5%;
+          width: 100%;
+        }
+
+        .logo {
+  position: absolute;
+}
+
+.imglogo {
+  height: 50px;
+}
+
+#text1 {
+  opacity: 0;
+}
+
+.navtop {
+  height: 50px;
+  background: rgba(0, 0, 0, 1);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  width: 100%;
+  z-index: 1;
+  transition: all 0.4s ease;
+  position: fixed;
+  font-family: sans-serif;
+  top: 0;
+}
+
+.navscroll {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.navtop ul {
+  float: right;
+  -webkit-margin-end: 15%;
+          margin-inline-end: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navtop li {
+  display: block;
+  width: 100%;
+  list-style: none;
+  height: 50px;
+}
+.menu.icon {
+  cursor: pointer;
+}
+
+.theInput #searchHere:focus {
+  border-style: initial;
+}
+
+.theInput #searchHere {
+  display: none;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  margin-top: 25px;
+  height: 30px;
+  border: 1px solid white;
+  box-shadow: 0px 1px 5px white;
+  background-color: black;
+  color: wheat;
+  line-height: 50px;
+  position: absolute;
+  width: 30%;
+}
+
+.ALL {
+  height: 100px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  left: 50%;
+  background-color: black;
+
+  display: none;
+  top: 43px;
+  padding-bottom: 1%;
+  position: fixed;
+  width: 30%;
+}
+
+.ALL .col-sm-10 {
+  display: block;
+
+  color: wheat;
+  cursor: pointer;
+  font-size: 20px;
+  border-bottom: 1px solid wheat;
+}
+
+.ALL .col-sm-10:hover {
+  background-color: wheat;
+  color: black;
+}
+
+
+.searchnavtop {
+  cursor: pointer;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+.searchnavtop i {
+  color: wheat;
+  font-size: 18px;
+}
+
+.searchnavtop:hover i {
+  color: #03a9f4;
+}
+
+.navtop .menu {
+  width: 100%;
+  display: block;
+  color: wheat;
+  margin: 0  25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+.navtop .menu:hover {
+  color: #03a9f4;
+  text-decoration: none;
+}
+
+.navtop a.icon {
+  display: none;
+  cursor: pointer;
+}
+
+
+.navtop1 {
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  position: fixed;
+  z-index: 4;
+  width: 210px;
+  height: 100%;
+  background-color: black;
+  display: none;
+  text-align: left;
+}
+
+.navtop1 ul {
+  margin-top: 5%;
+  display: block;
+  width: 100%;
+  list-style: none;
+}
+
+.navtop1 li {
+  width: 100%;
+  margin-left: 5%;
+}
+
+.navtop1 li a {
+  color: wheat;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.navtop1 li a:hover {
+  color: grey;
+}
+
+.menuhamnav {
+  margin: 15%;
+}
+
+.hamlogonav {
+  height: 45px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 2%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer h1 {
+  margin-top: 2%;
+  color: #03a9f4;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+footer .element {
+  font-size: 20px;
+  margin-left: 7%;
+  margin-bottom: 3.5%;
+  text-align: left;
+  border-bottom: 2px solid wheat;
+}
+
+footer .elta:hover {
+  color: #03a9f4;
+  text-decoration: none;
+}
+
+footer .elta {
+  color: wheat;
+  text-decoration: none;
+}
+
+footer a {
+  color: #03a9f4;
+}
+
+.row .btn.f {
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.row .btn.f:hover {
+  background-color: wheat;
+}
+
+.row .btn.f:hover i {
+  color: grey;
+}
+
+.row i {
+  margin-top: 25%;
+  color: wheat;
+  font-size: 15px;
+}
+
+.logobottom img {
+  margin-top: 2.5%;
+  margin-bottom: 1.5%;
+  height: 50px;
+}
+
+.lastpara {
+  margin-top: 5%;
+}
+
+#linkspar {
+  margin-bottom: 3%;
+}
+
+#search {
+  position: relative;
+}
+
+#lastcont p {
+  margin-top: 7%;
+}
+
+#search input {
+  background-color: black;
+  height: 30px;
+  color: wheat;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  border: 1px solid white;
+  -webkit-box-shadow: 0px 1px 5px white;
+          box-shadow: 0px 1px 5px white;
+}
+
+#search .btn {
+  background-color: black;
+  color: #03a9f4;
+}
+
+#search .btn:hover {
+  background-color: #03a9f4;
+  color: black;
+}
+
+#search i {
+  position: relative;
+  margin-top: 3%;
+  margin-left: 3%;
+  cursor: pointer;
+  color: white;
+  font-size: 23px;
+}
+
+#optionmenu {
+  position: relative;
+  top: 30%;
+  float: left;
+  z-index: 1;
+  border: red;
+  background-color: black;
+  display: none;
+  color: wheat;
+}@media only screen and (max-width: 1030px) {
+  .searchnavtop {
+    display: block;
+    margin-left: 10px;
+  }
+  .navtop .menu {
+    display: none;
+  }
+  .navtop a.icon {
+    display: block;
+  }
+}
         </style>
+        <script>
+          $(function(){
+  $(".menu.icon").click(function(){
+    if( $(".navtop1").css("display")=="none"){
+      $(".imgbody").css("filter","blur(2px)")
+      $(".container-fluid").css("filter","blur(2px)")
+      $(".a").css("filter","blur(2px)")
+      $("footer").css("filter","blur(2px)")
+    $(".navtop1").fadeIn(700);
+    $(".imglogo").css("display","none");
+  }
+    else if($(".navtop1").css("display")=="block" && $(".theInput #searchHere").css("display")=="block" ){
+      $(".navtop1").fadeOut(700);
+      $(".imgbody").css("filter","none")
+      $(".container-fluid").css("filter","none")
+      $(".a").css("filter","none")
+      $("footer").css("filter","none")
+      $(".imglogo").css("display","none");}
+      else{
+        $(".navtop1").fadeOut(700);
+        $(".imgbody").css("filter","none")
+        $(".container-fluid").css("filter","none")
+        $(".a").css("filter","none")
+        $("footer").css("filter","none")
+
+      $(".imglogo").css("display","block");
+      }
+  });
+});
+
+        </script>
 </head>
 <body>
-    <h2>Note GINF2</h2>
-   
-<button type="button" onclick="loadXMLDoc()">Get notes</button>
+  <nav class="navtop" id="myTopnav">
+    <ul class="logo" id="logo"><li><a class="menu icon" id="hamburger" >
+          <i class="fa fa-bars"></i>
+        </a></li><li><a href="./"><img src="images/logo.png" alt="logo" class="imglogo"></a></li>
+      </ul>
+      <ul>
+        <li><a href="projects/" class="menu">Home</a></li>
+<li><a href="videos/" class="menu">Affichage</a></li>
+<li><a href="sign in.php" class="menu">Carte</a></li>
+<li><a href="sign up.php" class="menu">Travaux</a></li>
+      
+      </div></li>
+  </ul>
+</nav>
+<nav class="navtop1" id="mytopnav1">
+<ul>
+  <li><a class="menu icon" ><i class="fa fa-bars"></i></a>
+  <a href="./"><img src="images/logo.png" alt="logo" class="hamlogonav"></a></li>
+  <li class="menuhamnav"><a href="projects/" > <i class="fa fa-tasks"></i> Home</a></li>
+  <li class="menuhamnav"><a href="videos/" ><i class="fa fa-id-card"></i> Affichage</a></li>
+  <li class="menuhamnav"><a href="sign in.php" > <i class="fa fa-sign-in"></i> Carte in</a></li>
+  <li class="menuhamnav"><a href="sign up.php" ><i class="fa fa-user-plus"></i> Travaux</a></li>
+  
+ 
+</ul>
+</nav>
+<div style="height: 100px;"></div>
+  <h2 style="text-align: center;">Affichage GINF2</h2> <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="ProgrammationAndXML()">Programmation Orientée Objet & XML</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="QualitéAndApproche()">Qualité et Approche Processus</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="ModélisationAndIHM()">Modélisation Orientée Objet & IHM</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="BasesDeDonnéesAvancées()">Bases de Données Avancées 1</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="AdministarationProgrammation()">Administaration et Programmation Systéme</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="LanguesCommunication()">Langues et Communication 2</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="TechnologiesDistribuées()">Technologies Distribuées</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="BasesdeDonnéesAvancéesCloud()">Bases de Données Avancées 2 & Cloud</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="TraitementImage()">Traitement de l'Image</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="ProgrammationDéclarativeTAV()">Programmation Déclarative et TAV</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="SécuriteetCryptographie()">Sécurite et Cryptographie</button>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-6">
+        <button class="btn a"  onclick="ManagementEntreprise()">Management de l'Entreprise</button>
+      </div>
+    </div>
+  </div>
+   <br> <br>
+  <div id="example"></div>
 <br><br>
-<table id="demo" class="table table-hover table-dark"></table>
 <script>
-    function loadXMLDoc() {
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          myFunction(this);
-        }
-      };
-      xmlhttp.open("GET", "Notes_GINF2.xml", true);
-      xmlhttp.send();
-    }
-    function myFunction(xml) {
-      var i;
-      var xmlDoc = xml.responseXML;
-      var table="<tr><th>CNE</th><th>DateOfBirth</th><th>FirstName</th><th>LastName</th><th>GINF21A</th><th>GINF21B</th><th>GINF221</th><th>GINF222</th><th>GINF231</th><th>GINF2312</th><th>GINF241</th><th>GINF242</th><th>GINF251</th><th>GINF252</th><th>GINF261</th><th>GINF262</th><th>GINF271</th><th>GINF272</th><th>GINF281</th><th>GINF282</th><th>GINF291</th><th>GINF292</th><th>GINF2101</th><th>GINF2102</th><th>GINF2111</th><th>GINF2112</th><th>GINF2121</th><th>GINF2122</th></tr>";
-      var x = xmlDoc.getElementsByTagName("Note");
-      for (i = 0; i <x.length; i++) { 
-        table += "<tr><td>" +
-        x[i].getElementsByTagName("CNE")[0].childNodes[0].nodeValue +
-        "</td><td>" +
-        x[i].getElementsByTagName("DateOfBirth")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("FirstName")[0].childNodes[0].nodeValue +
-        "</td><td>" +
-        x[i].getElementsByTagName("LastName")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF21A")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF21B")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF221")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF222")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF231")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF2312")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF241")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF242")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF251")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF252")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF261")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF262")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF271")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF272")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF281")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF282")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF291")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF292")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF2101")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF2102")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF2111")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF2112")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF2121")[0].childNodes[0].nodeValue +
-        "</td><td>"+
-        x[i].getElementsByTagName("GINF2122")[0].childNodes[0].nodeValue +
-        "</td></tr>";
-      }
-      document.getElementById("demo").innerHTML = table;
-    }
-    </script>
+    function loadXMLDoc(filename)
+{
+
+    $("#example").empty();
+if (window.ActiveXObject)
+  {
+  xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+  }
+else 
+  {
+  xhttp = new XMLHttpRequest();
+  }
+xhttp.open("GET", filename, false);
+try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+xhttp.send("");
+return xhttp.responseXML;
+}
+function ProgrammationAndXML()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteProgrammationAndXML.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+
+function QualitéAndApproche()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteQualitéAndApproche.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+function ModélisationAndIHM()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteModélisationAndIHM.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+function BasesDeDonnéesAvancées()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteBasesDeDonnéesAvancées.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+function AdministarationProgrammation()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteAdministarationProgrammation.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+function LanguesCommunication()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteLanguesCommunication.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+function TechnologiesDistribuées()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteTechnologiesDistribuées.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+function BasesdeDonnéesAvancéesCloud()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteBasesdeDonnéesAvancéesCloud.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+function TraitementImage()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteTraitementImage.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+function ProgrammationDéclarativeTAV()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteProgrammationDéclarativeTAV.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+function SécuriteetCryptographie()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteSécuriteetCryptographie.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+function ManagementEntreprise()
+{
+xml = loadXMLDoc("Notes_GINF2.xml");
+xsl = loadXMLDoc("NoteManagementEntreprise.xsl");
+// code for IE
+if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+  {
+  ex = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = ex;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor = new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+</script>
+<footer>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+     <div class="logobottom">
+      <a href="./"><img src="images/logo.png" alt="logo" id="imgbot"></a></div> <br>
+      <p style="color: wheat;">Plateform description.</p><div class="row justify-content-center">
+       <!-- <div class="col-2"><a href="#" class="btn f" ><i class="fa fa-facebook"></i></a></div>
+        <div class="col-2"><a href="#" class="btn f"><i class="fa fa-instagram"></i></a></div>
+        <div class="col-2"><a href="#" class="btn f"><i class="fa fa-twitter"></i></a></div>-->
+       </div>
+    </div>
+    <div class="col-lg-4"  >
+      <h1 id="linkspar">Quick Links</h1>
+      <a href="contact us.php" class="elta"><div class="element">Contact us</div></a>
+<a href="projects/" class="elta"><div class="element">Projects</div></a>
+<a href="sign up.php" class="elta"><div class="element">Sign up</div></a>
+<a href="about us.php" class="elta"><div class="element">About us</div></a>
+    </div>
+    <div class="col-lg-4" id="lastcont">
+      <h1>Search</h1>
+      <p class="lastpara" style="color: wheat;" >Search the language you want to start learning and get directly to the page</p>
+      <div id="search">
+        <div class="row justify-content-center">
+      <input type="text" placeholder="select a language" id="inputbottom" class="col-lg-7">
+        <div class="col-lg-3"><a class="btn" id="lastbutton">search</a></div>
+    </div>
+
+      <i class="fa fa-search" id="iconbottom"></i>
+    </div></div>
+  </div>
+</div>
+</footer>
+<div style="background-color: rgba(0,0,0,0.95);text-align: center;color: wheat;">        <span>Created By <a href="./">Code Skills</a> | <span style="color:blue">&copy;</span> 2020 All rights reserved.</span></div>
 </body>
 </html>

@@ -26,7 +26,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF221">
@@ -34,7 +34,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF222">
@@ -42,7 +42,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF231">
@@ -50,7 +50,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2312">
@@ -58,7 +58,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF241">
@@ -66,7 +66,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF242">
@@ -74,7 +74,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF251">
@@ -82,7 +82,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF252	">
@@ -90,7 +90,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF261	">
@@ -98,7 +98,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF262	">
@@ -106,7 +106,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF271	">
@@ -114,7 +114,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF272	">
@@ -122,7 +122,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF281	">
@@ -130,7 +130,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF282	">
@@ -138,7 +138,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF291	">
@@ -146,7 +146,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF292	">
@@ -154,7 +154,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2101">
@@ -162,7 +162,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2102">
@@ -170,7 +170,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2111">
@@ -178,7 +178,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2112">
@@ -186,7 +186,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2121">
@@ -194,7 +194,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
             <xsd:element name="GINF2122">
@@ -202,7 +202,7 @@
                 <xsd:restriction base="xsd:decimal" >
                   <xsd:minInclusive value="0" />
                   <xsd:maxInclusive value="20" />
-                </xsd:restriction >
+                </xsd:restriction>
               </xsd:simpleType>
              </xsd:element>
 
