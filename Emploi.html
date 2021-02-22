@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emploi de temps</title>
 </head>
 <body onload="ProgrammationAndXML()">
-    
 
-    <div id="exampe"></div>
- 
+    <div id="example"></div>
     <script>
         function loadXMLDoc(filename)
     {
@@ -17,7 +16,7 @@
       {
       xhttp = new ActiveXObject("Msxml2.XMLHTTP");
       }
-    else
+    else 
       {
       xhttp = new XMLHttpRequest();
       }
@@ -28,8 +27,8 @@
     }
     function ProgrammationAndXML()
     {
-    xml = loadXMLDoc("Students_GINF2.xml");
-    xsl = loadXMLDoc("Student.xsl");
+    xml = loadXMLDoc("Notes_GINF2.xml");
+    xsl = loadXMLDoc("Emploi.xsl");
     // code for IE
     if (window.ActiveXObject || xhttp.responseType == "msxml-document")
       {
